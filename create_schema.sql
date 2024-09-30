@@ -1,0 +1,4 @@
+CREATE SCHEMA aether AUTHORIZATION aether_adm;
+
+GRANT USAGE ON SCHEMA aether TO aether_api;
+GRANT USAGE ON ALL SEQUENCES IN SCHEMA aether TO aether_api;
