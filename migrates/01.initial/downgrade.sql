@@ -1,0 +1,3 @@
+BEGIN;
+DROP TABLE aether.user;
+COMMIT;
